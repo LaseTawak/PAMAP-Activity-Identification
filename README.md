@@ -13,3 +13,5 @@ We will focus on these three targets for this report:
 * Develop and test at least one model which uses multiple attributes to make predictions.
 
 ## Results
+#### Hypothesis Testing
+A Z-test was used to compare ascending stairs and descending stairs activities. I observed that on average while Ascending, subjects heart rate increased by 96.5885% compared to Descending, for which subjects experienced an increase in heart rate by 94.7385% implying that while close, Ascending Stairs is the more stressful. Percentage change in heart rate is used, because a subject's heart rate change will be the best representation of how physically demanding an activity is.
