@@ -21,13 +21,16 @@ A Z-test was used to compare ascending stairs and descending stairs activities. 
 **Is Ascending stairs significantly physically more intensive than Descending stairs i.e On average, does Ascending stairs cause a higher change in heart rate than Descending stairs?**
 
 $H_0$ : The mean heart rate while Ascending stairs is **NOT** higher than the average heart rate change while descending stairs.
+
 $$
 \begin{align}
 \mu_a =< \mu_d \\
 \mu_a - \mu_d <= 0
 \end{align}
 $$
+
 $H_a$ : The average heart rate change while Ascending stairs is higher than the average heart rate change while descending stairs. 
+
 $$
 \begin{align}
 \mu_a > \mu_d\\
