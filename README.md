@@ -14,8 +14,6 @@ We will focus on these three targets for this report:
 
 ## Results
 #### Hypothesis Testing
-A Z-test was used to compare ascending stairs and descending stairs activities. I observed that on average while Ascending, subjects heart rate increased by 96.5885% compared to Descending, for which subjects experienced an increase in heart rate by 94.7385% implying that while close, Ascending Stairs is the more stressful. Percentage change in heart rate is used, because a subject's heart rate change will be the best representation of how physically demanding an activity is.  
-
 `*If a higher change in heart rate is a good representation of how intensive an activity is, then activities that increase heart rate a lot are more physically intensive than activities that increase heart rate by little change.*`
 
 **Is Ascending stairs significantly physically more intensive than Descending stairs i.e On average, does Ascending stairs cause a higher change in heart rate than Descending stairs?**
