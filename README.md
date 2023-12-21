@@ -13,7 +13,7 @@ We will focus on these three targets for this report:
 * Develop and test at least one model which uses multiple attributes to make predictions.
 
 ## Results
-#### Hypothesis Testing
+### Hypothesis Testing
 `*If a higher change in heart rate is a good representation of how intensive an activity is, then activities that increase heart rate a lot are more physically intensive than activities that increase heart rate by little change.*`
 
 **Is Ascending stairs significantly physically more intensive than Descending stairs i.e On average, does Ascending stairs cause a higher change in heart rate than Descending stairs?**
@@ -36,3 +36,12 @@ $$
 \end{align}
 $$
 
+The p-value of 0.0006891572262405221 was gotten leading to rejecting the null hypothesis that Descending stairs is more intensive physically than Ascending stairs. Even at significance level as low as
+0.1% , we shall still reject the null hypothesis. This actually backs the logical assumption that Ascending stairs is harder than Descending stairs.
+
+### Modelling
+In our modeling stage, we fitted and tested a linear regression model on the training data to predict heart rate change while varying the number of components using Principal Component Analysis, testing on
+test/unseen data. The model achieved best RMSE score of 5.031, best MAE of 4.065 and obtained best R^2 score of 0.3359, indicating poor prediction performance. Both linear and logistic regression models were
+used, with logistic regression performing better with an accuracy of 82% and precision of 79.9%. It was also found that dimensionality reduction did not improve the performance of the models. Other modelling
+techniques were attempted like Polynomial Regression, KMeans and KNN, these algorithms appeared to be to powerful for my machine and either took toolong to run or crashed my computer by running out of RAM
+memory.
